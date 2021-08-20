@@ -19,6 +19,8 @@ function setup() {
   dog.scale=0.15;
 
   foodObj = new Food();
+  foodStock = database.ref("food");
+  foodStock.on("value", readStock);
 
   feed = createButton("Feed The Dog");
   feed.position(700, 95);
