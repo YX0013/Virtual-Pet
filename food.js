@@ -5,9 +5,6 @@ class Food {
         this.lastFed;
     }
 
-    getFoodStock() {
-        return this.foodStock;
-    }
     updateFoodStock(foodStock) {
         this.foodStock = foodStock;
     }
@@ -19,6 +16,10 @@ class Food {
             this.foodStock = this.foodStock - 1;
         }
     }
+    getFoodStock() {
+        return this.foodStock;
+    }
+    
     display() {
         var x = 80, y = 100;
 
