@@ -26,9 +26,9 @@ function setup() {
   feed.position(700, 95);
   feed.mousePressed(feedDog);
 
-  addFood = createButton("Add Food");
-  addFood.position(800, 95);
-  addFood.mousePressed(addFood);
+  addFoods = createButton("Add Food");
+  addFoods.position(800, 95);
+  addFoods.mousePressed(addFoods);
 }
 
 function draw() {
