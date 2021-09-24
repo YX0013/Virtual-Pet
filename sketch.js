@@ -28,7 +28,7 @@ function setup() {
 
   addFoods = createButton("Add Food");
   addFoods.position(800, 95);
-  addFoods.mousePressed(addFoods);
+  addFoods.mousePressed(addFood);
 }
 
 function draw() {
